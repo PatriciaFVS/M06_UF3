@@ -12,10 +12,11 @@
             <tr>
                 <td><label for="username">Nom d'usuari:</label></td>
                 <td><input type="text" id="username" name="username" onfocusout="validarUsername()" required></td>
+                <td><div id="errorUsername"></div></td>
             </tr>
             <tr>
                 <td><label for="email">Correu electrònic:</label></td>
-                <td><input type="email" id="email" name="email" onfocusout="validarEmail()" required></td>
+                <td><input type="email" id="email" name="email" required></td>
                 <td><div id="error"></div></td>
             </tr>
             <tr>
@@ -31,6 +32,7 @@
             <tr>
                 <td><label for="address">Adreça postal:</label></td>
                 <td><input type="text" id="address" name="address" required></td>
+                <td><div id="errorPostcode"></div></td>
             </tr>
         </table><br>
 
